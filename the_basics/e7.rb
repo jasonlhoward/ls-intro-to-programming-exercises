@@ -4,3 +4,4 @@
 # It's possible that a ")" was used when a "}" was needed
 # but it's possible that it was something else. A close
 # examination of the code is needed to determine the exact cause.
+# There is a "{" somewhere without a matching "}"
