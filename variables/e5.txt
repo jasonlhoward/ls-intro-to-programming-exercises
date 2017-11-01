@@ -1,0 +1,25 @@
+x = 0
+3.times do
+  x += 1
+end
+puts x
+
+Will print 3.
+The do/end following 3.times is a block. It's a block because
+3.times is a method. Because the x was declared outside the block,
+the block has access to this variable and can change it's value.
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+
+Will generate an error. 
+The scope of x is local to the block immediately following the 
+3.times method. After the method returns and passes control back 
+to main, the x variable is no longer in scope.
+
+The actual error generated:
+e5.rb:6:in `<main>': undefined local variable or method `x' for main:Object (NameError) 
