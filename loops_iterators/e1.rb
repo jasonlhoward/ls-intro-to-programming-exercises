@@ -1,0 +1,11 @@
+# What does the each method in the following program return 
+# after it is finished executing?
+
+x = [1, 2, 3, 4, 5]
+x.each do |a|
+  a + 1
+end
+
+# it doesn't return anything
+# the return value of this code is the array
+# because that's be last value set within the scope of main
