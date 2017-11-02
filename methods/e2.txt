@@ -1,0 +1,21 @@
+1. x = 2
+
+Would return 2 and there would be nothing printed to the screen
+
+2. puts x = 2
+
+Would return nil and 2 is printed to the screen
+
+3. p name = "Joe"
+
+Would return "Joe" and "Joe" is printed to the screen. Interesting,
+this is very similar to the previous scenario but a value
+is returned
+
+4. four = "four"
+
+Would return "four" and nothing would be printed to the screen
+
+5. print something = "nothing"
+
+Would return "nil" and nothing is printed to the screen
