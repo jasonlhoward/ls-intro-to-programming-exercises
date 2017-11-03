@@ -1,0 +1,4 @@
+names = ['bob', 'joe', 'susan', 'margaret']
+# names['margaret'] = 'jody'
+# the [] method expects an integer and got a string instead
+names[names.index('margaret')] = 'jody'
