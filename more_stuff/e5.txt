@@ -1,0 +1,12 @@
+def execute(block)
+  block.call
+end
+execute { puts "Hello from inside the execute method!" }
+
+This code generates an error because the block is being treated
+as a local variable because it's missing the "&"
+
+def execute(&block)
+  block.call
+end
+execute { puts "Hello from inside the execute method!" }

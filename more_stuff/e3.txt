@@ -1,0 +1,2 @@
+Exception handling manages errors. When errors occur, it's
+best to handle them in a predictable way.
